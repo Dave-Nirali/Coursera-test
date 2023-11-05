@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin:20px;
+            padding: 10px 30px 10px 30px;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            font-size: 150%;
+            text-align: center;
+            margin: 20px;
+        }
+        
+        .container {
+            display: flex;
+        }
+        
+        .section {
+            width: 33.33%;
+            box-sizing: border-box;
+            border: 3px solid black;
+            padding: 15px;
+            margin:10px;
+            height:240px;
+        }
+        
+
+        .section-title{
+            position: absolute;
+            top:70px;
+            float:left;
+            margin-left:143px;
+            margin-top:39px;
+            border: 1px solid black;
+            font-weight:bold;
+            background-color: #dc94a7;
+            padding: 10px 70px 5px 10px;
+        }
+
+        .section-title2{
+            position: absolute;
+            top: 70px;
+            float:right;
+            -webkit-text-fill-color: white;
+            margin-left:166px;
+            margin-top:39px;
+            border: 1px solid black;
+            font-weight:bold;
+            background-color: #c75946;
+            padding: 10px 70px 5px 10px;
+        }
+
+        .section-title3{            position: absolute;
+            top: 70px;
+            float:right;
+            margin-left:153px;
+            margin-top:39px;
+            border: 1px solid black;
+            font-weight:bold;
+            background-color: #d5ca82;
+            padding: 10px 70px 5px 10px;
+        }
+
+        .section:nth-child(1n) {
+            background-color: #818381;
+        }
+        
+        
+        .section:nth-child(2n) {
+            background-color: #818381;
+            font-size:18px;
+        }
+        
+        .section:nth-child(3) {
+            background-color: #818381;
+            font-size:19px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <div class="container">
+        <div class="section">
+            <div class="section-title">Chicken</div>
+            <p>lorem ipsum sit amet, consectetur adipisicing elit,sed do eisumod tempor incididuntut labore et dolore manga aliqua.Ut enim ad minim veniam, quis nostrud exercitiation ullamco laboris nisi ut aliquip ex commado consequat. </p>
+        </div>
+        <div class="section">
+            <div class="section-title2">Beef</div>
+            <p>lorem ipsum sit amet, consectetur adipisicing elit,sed do eisumod tempor incididuntut labore et dolore manga aliqua.Ut enim ad minim veniam, quis nostrud exercitiation ullamco laboris nisi ut aliquip ex commado consequat.</p>
+        </div>
+        <div class="section">
+            <div class="section-title3">Sushi</div>
+            <p>lorem ipsum sit amet, consectetur adipisicing elit,sed do eisumod tempor incididuntut labore et dolore manga aliqua.Ut enim ad minim veniam, quis nostrud exercitiation ullamco laboris nisi ut aliquip ex commado consequat.</p>
+        </div>
+    </div>
+</body>
+</html>
